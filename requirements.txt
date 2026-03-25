@@ -1,0 +1,76 @@
+# Core ML Libraries
+torch>=2.1.0
+transformers>=4.36.0
+accelerate>=0.25.0
+tokenizers>=0.15.0
+sentencepiece>=0.1.99
+
+# Training & Fine-tuning
+peft>=0.7.0  # LoRA, QLoRA
+bitsandbytes>=0.41.0  # Quantization
+deepspeed>=0.12.0
+flash-attn>=2.3.0
+
+# Inference Optimization
+vllm>=0.2.6
+optimum>=1.16.0
+onnx>=1.15.0
+onnxruntime>=1.16.0
+
+# Specialized Model Support
+sentence-transformers>=2.2.0  # Embeddings
+langchain>=0.1.0
+llama-index>=0.9.0
+
+# Multimodal
+pillow>=10.0.0
+opencv-python>=4.8.0
+timm>=0.9.0  # Vision models
+
+# API Support (Proprietary Models)
+openai>=1.6.0
+anthropic>=0.8.0
+google-generativeai>=0.3.0
+cohere>=4.37
+
+# Evaluation
+datasets>=2.16.0
+evaluate>=0.4.0
+nltk>=3.8.0
+rouge-score>=0.1.2
+sacrebleu>=2.3.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+tqdm>=4.66.0
+einops>=0.7.0
+
+# Web & API
+fastapi>=0.109.0
+uvicorn>=0.25.0
+gradio>=4.13.0
+streamlit>=1.29.0
+
+# Configuration & Logging
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+wandb>=0.16.0
+tensorboard>=2.15.0
+
+# Development
+pytest>=7.4.0
+black>=23.12.0
+flake8>=7.0.0
+mypy>=1.8.0
+pre-commit>=3.6.0
+
+# Specialized Libraries
+einsum>=0.1.0
+xformers>=0.0.23  # Efficient attention
+safetensors>=0.4.0
+huggingface-hub>=0.20.0
